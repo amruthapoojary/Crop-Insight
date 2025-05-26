@@ -1,0 +1,139 @@
+/* General Styling */
+.about-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Header Section */
+.about-header {
+  background-color: #e8f5e9;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #388e3c;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* About Content Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.about-description {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  max-width: 50%;
+}
+
+.about-description h2 {
+  font-size: 2rem;
+  color: #388e3c;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-description p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Image Section */
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Creative Feature Section */
+.about-creative-features {
+  margin-top: 30px;
+  padding: 40px 20px;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-creative-features h2 {
+  font-size: 2.2rem;
+  color: #388e3c;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Feature Items */
+.feature-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: inline-block;
+  max-width: 220px;
+  font-size: 1rem;
+  color: #555;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+.feature-item i {
+  font-size: 2rem;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  color: #388e3c;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #28a745; /* Green button */
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; /* Remove underline from links */
+  margin-top: 20px;
+}
