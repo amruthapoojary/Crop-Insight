@@ -2,9 +2,9 @@
 ## Overview
 This is a full-stack web application designed to provide insights into different crops based on seasons, weather conditions, and soil types.
 ## Technologies Used
-- *Frontend: React
-- *Backend: Node.js, Express.js
-- **Database: MySQL
+- * Frontend: React
+- * Backend: Node.js, Express.js
+- * Database: MySQL
 ## Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
@@ -45,6 +45,7 @@ This will run the frontend on `http://localhost:3000\`.
 ![App Screenshot](Pic15.png)
 ## License
 This project is licensed under the MIT License.
+
 
 
 
