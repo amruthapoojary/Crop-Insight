@@ -30,9 +30,9 @@ npm start
 ```
 This will run the frontend on `http://localhost:3000\`.
 ## Features
-* ✔️ *User Dashboard* - Crop insights & recommendations
-* ✔️ *Admin Dashboard* - Manage crop data
-* ✔️ *Database Integration* - MySQL storage
+*  *User Dashboard* - Crop insights & recommendations
+*  *Admin Dashboard* - Manage crop data
+*  *Database Integration* - MySQL storage
 ## Screenshots
 ### Homepage View
 ![App Screenshot](Pic1.png)
@@ -45,6 +45,7 @@ This will run the frontend on `http://localhost:3000\`.
 ![App Screenshot](Pic15.png)
 ## License
 This project is licensed under the MIT License.
+
 
 
 
