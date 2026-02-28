@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 const adminDB = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '4SF22CS023',
+  password: 'your_password',
   database: 'CropAnalysisDB'
 });
 
@@ -23,7 +23,7 @@ const adminDB = mysql.createConnection({
 const authDB = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '4SF22CS023',
+  password: 'your_password',
   database: 'crop_analysis'
 });
 
